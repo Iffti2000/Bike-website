@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Project 19</title>
+</head>
+<body>
+    <div class="hero" id="bike">
+        <nav>
+            <img src="logo.png" class="logo">
+            <p class="test-drive">Test drive</p>
+        </nav>
+        <div class="content">
+            <h2>THE BMW</h2>
+            <h1>G 310 R</h1>
+            <p>The strenght of the G 310 R is in its lightness and agility.The Bike not only delivers fun in the big-city tumult, but also when you are redefining the city limits when changing corners quickly</p>
+            <h3>Choose your color</h3>
+            <div class="options">
+                <div id="red"></div>
+                <div id="blue"></div>
+                <div id="black"></div>
+            </div>
+        </div>
+    </div>
+<script>
+
+var red = document.getElementById("red")
+var blue = document.getElementById("blue")
+var black = document.getElementById("black")
+var bike = document.getElementById("bike")
+
+
+red.onclick = function(){
+    bike.style.backgroundImage = "url(BMW1.png)"
+}
+blue.onclick = function(){
+    bike.style.backgroundImage = "url(BMW2.png)"
+}
+black.onclick = function(){
+    bike.style.backgroundImage = "url(BMW3.png)"
+}
+
+</script>
+
+</body>
+</html>
